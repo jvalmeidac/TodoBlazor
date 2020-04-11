@@ -24,9 +24,6 @@ C:\DEV\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.d
 C:\DEV\TodoApp\TodoApp\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\TodoApp.RazorComponent.input.cache
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Counter.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Todo.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -55,9 +52,6 @@ C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\TodoApp.csproj.CoreCompileInputs.
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\TodoApp.MvcApplicationPartsAssemblyInfo.cache
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\RazorDeclaration\TodoApp.dll
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Pages\Counter.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
-C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Pages\Todo.razor.g.cs
 C:\DEV\TodoApp\TodoApp\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
