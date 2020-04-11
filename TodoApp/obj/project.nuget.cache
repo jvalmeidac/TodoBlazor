@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "uFYjQAL/vVOps7hwBh7xMn0w7DSNlJzfZWaGfp6G/eF5cMyUq9+s+0ogaokiADDMbtz5aWnefJ9rjK43WAVjpw==",
+  "success": true,
+  "projectFilePath": "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joaov\\.nuget\\packages\\blazored.toast\\2.0.9\\blazored.toast.2.0.9.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.1\\microsoft.aspnetcore.authorization.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.1\\microsoft.aspnetcore.components.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.1\\microsoft.aspnetcore.components.analyzers.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.1.1\\microsoft.aspnetcore.components.forms.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.1.1\\microsoft.aspnetcore.components.web.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.1.1\\microsoft.aspnetcore.metadata.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.1\\microsoft.extensions.dependencyinjection.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.1\\microsoft.extensions.dependencyinjection.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.1\\microsoft.extensions.logging.abstractions.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.options\\3.1.1\\microsoft.extensions.options.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.1\\microsoft.extensions.primitives.3.1.1.nupkg.sha512",
+    "C:\\Users\\joaov\\.nuget\\packages\\microsoft.jsinterop\\3.1.1\\microsoft.jsinterop.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

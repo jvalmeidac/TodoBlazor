@@ -1,0 +1,74 @@
+﻿@page "/todo"
+@inject IToastService toastService
+@using TodoApp.Model
+
+<h3 class="container">Todo</h3>
+<div class="container">
+    <span type="text" class="btn btn-warning">
+        Pendentes <span class="badge badge-light">(@todos.Count(todo => !todo.isDone))</span>
+    </span>
+    <span type="text" class="btn btn-success">
+        Concluídas <span class="badge badge-light">(@todos.Count(todo => todo.isDone))</span>
+    </span>
+</div>
+<div class="container input-group mb-3 mt-3">
+    <input type="text" class="form-control" placeholder="Título da tarefa" @bind="newTodo">
+    <div class="input-group-append">
+        <button class="btn btn-outline-primary" type="button" @onclick="AddTodo">Adicionar</button>
+    </div>
+</div>
+<div class="container">
+    <ul class="list-group input-group mb-3">
+        @foreach (var todo in todos)
+        {
+            if (todo.isDone == false)
+            {
+                <li class="list-group-item border-warning mb-1">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input @bind="todo.isDone" type="checkbox" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
+                        <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="list-group-item border-success mb-1">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input @bind="todo.isDone" type="checkbox" aria-label="Checkbox for following text input">
+                            </div>
+                        </div>
+                        <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
+                        <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+
+</div>
+
+
+
+
+@code {
+
+    IList<TodoItem> todos = new List<TodoItem>();
+    private string newTodo;
+
+    private void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodo))
+        {
+            todos.Add(new TodoItem { Title = newTodo, AddedIn = DateTime.Now });
+            newTodo = string.Empty;
+            toastService.ShowSuccess("Tarefa Adicionada!");
+        }
+    }
+}
