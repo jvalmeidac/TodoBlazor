@@ -40,6 +40,8 @@
                         </div>
                         <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
                         <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
+                        <button class="btn btn-outline-danger oi oi-trash ml-2" @onclick="@(() => { RemoveTodo(todo); })"></button>
+
                     </div>
                 </li>
             }
@@ -53,6 +55,7 @@
                             </div>
                         </div>
                         <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
+                        <span class="form-control btn oi oi-delete"></span>
                         <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
                     </div>
                 </li>
@@ -67,7 +70,7 @@
 
 @code {
 
-    IList<TodoItem> todos = new List<TodoItem>();
+    List<TodoItem> todos = new List<TodoItem>();
     private string newTodo;
 
     private void AddTodo()
@@ -86,5 +89,11 @@
 
             newTodo = string.Empty;
         }
+    }
+
+    private void RemoveTodo(TodoItem todo)
+    {
+        todos.RemoveAt(todos.FindIndex(x => x.ID == todo.ID));
+        toastService.ShowError($"Tarefa '{todo.Title}' Removida", "Excluída");
     }
 }
