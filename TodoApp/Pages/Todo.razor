@@ -26,13 +26,13 @@
             <h5>Adicionada em:</h5>
         </div>
     </div>
-    <ul class="list-group input-group mb-3">
+    <ul class="list-group input-group">
         @foreach (var todo in todos)
         {
             if (todo.isDone == false)
             {
                 <li class="list-group-item border-warning mb-1">
-                    <div class="input-group mb-3">
+                    <div class="input-group">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input @bind="todo.isDone" type="checkbox" aria-label="Checkbox for following text input">
@@ -40,23 +40,28 @@
                         </div>
                         <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
                         <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
-                        <button class="btn btn-outline-danger oi oi-trash ml-2" @onclick="@(() => { RemoveTodo(todo); })"></button>
-
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-danger oi oi-trash" type="button" @onclick="@(() => { RemoveTodo(todo); })"></button>
+                        </div>
                     </div>
                 </li>
             }
             else
             {
                 <li class="list-group-item border-success mb-1">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">
-                                <input @bind="todo.isDone" type="checkbox" aria-label="Checkbox for following text input">
+                    <div class="input-group">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input @bind="todo.isDone" type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
+                            <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-danger oi oi-trash" type="button" @onclick="@(() => { RemoveTodo(todo); })"></button>
                             </div>
                         </div>
-                        <input @bind="todo.Title" type="text" class="form-control" aria-label="Text input with checkbox">
-                        <span class="form-control btn oi oi-delete"></span>
-                        <input @bind="todo.AddedIn" type="date" class="form-control" aria-label="Text input with checkbox">
                     </div>
                 </li>
             }

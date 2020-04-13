@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DEV\\TodoApp\\TodoApp\\TodoApp.csproj": {}
+    "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj": {}
   },
   "projects": {
-    "C:\\DEV\\TodoApp\\TodoApp\\TodoApp.csproj": {
+    "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DEV\\TodoApp\\TodoApp\\TodoApp.csproj",
+        "projectUniqueName": "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj",
         "projectName": "TodoApp",
-        "projectPath": "C:\\DEV\\TodoApp\\TodoApp\\TodoApp.csproj",
+        "projectPath": "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj",
         "packagesPath": "C:\\Users\\joaov\\.nuget\\packages\\",
-        "outputPath": "C:\\DEV\\TodoApp\\TodoApp\\obj\\",
+        "outputPath": "C:\\DEV\\todoapp\\TodoApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1y3b2ML9wvOfpMesNkfjp1TjxSD6MCp1JVzehNwiHTvHYiw+W/qOzUEXxnJGdaEnSBuMC+uj2mJTqdo1sCagYQ==",
+  "dgSpecHash": "uFYjQAL/vVOps7hwBh7xMn0w7DSNlJzfZWaGfp6G/eF5cMyUq9+s+0ogaokiADDMbtz5aWnefJ9rjK43WAVjpw==",
   "success": true,
-  "projectFilePath": "C:\\DEV\\TodoApp\\TodoApp\\TodoApp.csproj",
+  "projectFilePath": "C:\\DEV\\todoapp\\TodoApp\\TodoApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joaov\\.nuget\\packages\\blazored.toast\\2.0.9\\blazored.toast.2.0.9.nupkg.sha512",
     "C:\\Users\\joaov\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.1\\microsoft.aspnetcore.authorization.3.1.1.nupkg.sha512",
