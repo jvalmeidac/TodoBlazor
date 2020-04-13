@@ -9,7 +9,7 @@ namespace TodoApp.Model
     public class TodoItem
     {
         public string Title { get; set; }
-        public bool isDone { get; set; } = false;
+        public bool isDone { get; set; }
         [DataType(DataType.Date)]
         public DateTime AddedIn { get; set; }
     }

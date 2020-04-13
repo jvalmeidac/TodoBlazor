@@ -74,9 +74,17 @@
     {
         if (!string.IsNullOrWhiteSpace(newTodo))
         {
-            todos.Add(new TodoItem { Title = newTodo, AddedIn = DateTime.Now });
+            TodoItem todo = new TodoItem()
+            {
+                isDone = false,
+                Title = newTodo,
+                AddedIn = DateTime.Now,
+            };
+            todos.Add(todo);
+
+            toastService.ShowSuccess($"Tarefa '{newTodo}' Adicionada!", "Sucesso");
+
             newTodo = string.Empty;
-            toastService.ShowSuccess("Tarefa Adicionada!");
         }
     }
 }
